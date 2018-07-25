@@ -240,7 +240,7 @@ def eval_loss_and_grads(x):
         grad_values = np.array(outs[1:]).flatten().astype('float64')
     return loss_value, grad_values
 
-# this Evaluator class makes it possible
+# this Evaluator class makes it  possible
 # to compute loss and gradients in one pass
 # while retrieving them via two separate functions,
 # "loss" and "grads". This is done because scipy.optimize
